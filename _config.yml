@@ -40,10 +40,10 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name:    Jason Xu
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  bio: "Smarter and Harder"
+  email: jason.xty@foxmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
