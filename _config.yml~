@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Jason Xu
 locale:           en_US
 url:
 
@@ -40,7 +40,7 @@ titlecase: true
 
 # Site owner
 owner:
-  name: jason Xu
+  name:    Jason Xu
   avatar: bio-photo.jpg
   bio: "Smarter and Harder"
   email: jason.xty@foxmail.com

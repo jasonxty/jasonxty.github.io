@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/%E7%A6%8F%E5%BB%BA%E4%B9%8B%E8%A1%8C/</loc>
+    <lastmod>2016-02-06T00:00:00+08:00</lastmod>
+  </url>
+  <url>
     <loc>/author-override/</loc>
     <lastmod>2014-07-31T00:00:00+08:00</lastmod>
   </url>
@@ -60,5 +64,8 @@
     </url>
     <url>
       <loc>/author-override/</loc>
+    </url>
+    <url>
+      <loc>/%E7%A6%8F%E5%BB%BA%E4%B9%8B%E8%A1%8C/</loc>
     </url>
 </urlset>
