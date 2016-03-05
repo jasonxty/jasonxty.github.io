@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Sample Link Post &#8211; Jason Xu</title>
-<meta name="description" content="Example and code for using link posts.">
-<meta name="keywords" content="sample post, link post">
+<title>微商城阶段性总结1 &#8211; Jason Xu</title>
+<meta name="description" content="小记微商城">
+<meta name="keywords" content="sample post, images, test">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Sample Link Post">
-<meta name="twitter:description" content="Example and code for using link posts.">
+<meta name="twitter:title" content="微商城阶段性总结1">
+<meta name="twitter:description" content="小记微商城">
 
 
 
@@ -22,9 +22,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sample Link Post">
-<meta property="og:description" content="Example and code for using link posts.">
-<meta property="og:url" content="/sample-link-post/">
+<meta property="og:title" content="微商城阶段性总结1">
+<meta property="og:description" content="小记微商城">
+<meta property="og:url" content="/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/">
 <meta property="og:site_name" content="Jason Xu">
 
 <meta property="og:image" content="/images/default-thumb.png">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="/sample-link-post/">
+<link rel="canonical" href="/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jason Xu Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -140,17 +140,31 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="http://mademistakes.com">Sample Link Post</a></h1>
+        <h1><a href="/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/" rel="bookmark" title="微商城阶段性总结1">微商城阶段性总结1</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code>link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
+      <p>不忙要按计划，忙了更加要按计划。
+大概是从2月初开始着手微信商城的运维工作，将近1个月。但是进展并不如预期。到现在还没有成功实现微信商城本地的调试。知道这不是一个简单的工作，准备好做长期的打算，所以现在先进行阶段性的总结。</p>
 
-<blockquote>
-  <p>And this is how a quote looks.</p>
-</blockquote>
+<p>之前并没有接触过任何关于web开发的东西。所以几乎是从小白开始部署（在云昊帮助下）。
+LAMP
+L首先，安装VMware的ubuntu虚拟机，并进行必要的配置，学习，包括软件的安装/删除，必要指令的学习grep/find/ls。
+A然后安装apache2服务器，并进行一些必要的配置。包括rewrite权限，端口映射等。以及常用指令/etc/init.d/apapche2 restart。
+M以及mysql的安装，这里安装mysqladmin来进行方便的管理。
+P然后安装php。并且学习了w3school的相关教程，包括php/html/javascript。并初步理解整个项目的大体响应流程：客户通过网址访问，http等协议解析路由到服务器，服务器运行php代码并返回带有javascript的html网页，该网页在客户浏览器进一步执行并显示。</p>
 
-<p>Some <a href="http://www.mademistakes.com">link</a> can also be shown.</p>
+<p>然后是微信本地调试的实现（未成功实现）：由于微信商城，涉及微信接口，需要自有服务器与微信服务器进行权限验证配置，而微信服务器又只能和外网域名进行交互，所以需要进行内网穿透。这里面使用ngrok.cc提供的ngrok服务将jiaoda.ngrok.cc域名映射到本地服务器根目录。但是在运用微信客户端访问的时候却遇到了500的错误。有待解决（如图）。</p>
+
+<h3 id="figures">Figures</h3>
+
+<figure>
+	<img src="/images/weixinerror1.PNG" />
+	<img src="/images/weixinerror2.PNG" />
+    <img src="/images/weixinerror3.PNG" />
+	<img src="/images/weixinerror4.PNG" />
+</figure>
+
 
       <hr />
       <footer role="contentinfo">
@@ -158,17 +172,17 @@
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/sample-link-post/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/sample-link-post/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/sample-link-post/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>Sample Link Post</strong> was published on <time datetime="2013-08-12T00:00:00+08:00">August 12, 2013</time>.</p>
+        <p class="byline"><strong>微商城阶段性总结1</strong> was published on <time datetime="2016-02-04T00:00:00+08:00">February 04, 2016</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -183,9 +197,9 @@
     
       <li><a href="/%E7%A6%8F%E5%BB%BA%E4%B9%8B%E8%A1%8C/" title="福建之行">福建之行</a></li>
     
-      <li><a href="/%E5%BE%AE%E4%BF%A1%E5%95%86%E5%9F%8E%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%931/" title="微商城阶段性总结1">微商城阶段性总结1</a></li>
-    
       <li><a href="/author-override/" title="Author Override">Author Override</a></li>
+    
+      <li><a href="/code-highlighting-post/" title="Syntax Highlighting Post">Syntax Highlighting Post</a></li>
     
     </ul>
     <hr />
@@ -202,6 +216,9 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/assets/js/scripts.min.js"></script>
+
+
+  
 
 
 
